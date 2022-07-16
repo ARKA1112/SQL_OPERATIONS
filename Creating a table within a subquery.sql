@@ -1,3 +1,4 @@
+/*creating and using a table within a subquery*/
 SELECT num_role, actor_lvl.level
 from (SELECT count(*) num_role
       from film_actor
